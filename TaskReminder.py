@@ -43,5 +43,5 @@ if __name__ == "__main__":
         current_minute = date.minute
 
         schedule(date, test_hour=current_hour, test_minute=current_minute)
-        sleep(5)
+        sleep(300)
 
